@@ -1,0 +1,175 @@
+:root{
+    --primaria-a: #e0752d;
+    --primaria-b: #db5011; 
+    --secundaria-a: #150f11;
+    --secundaria-b: #fff;
+    --terciaria-a: #898ca9;
+    --terciaria-b: #f7dd6a;
+    --terciaria-c: #4c4c52; 
+}
+.bg-1{
+    background-color: var(--secundaria-a);
+}
+.color{
+    color: var(--primaria-b);
+}
+.nav-shadow:hover{
+    color:#f7dd6a;
+    transition: 0.5s;
+}
+header{
+    height: 75vh;
+    background-image: url(../img/002.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.position-text{
+    padding-left: 10%;
+}
+.text-header{
+    font-size: 95px;
+    color: #150f11;
+    text-shadow: #e0752d -1px -1px,#f7dd6a 1px 1px;
+    line-height: 65px;
+}
+.text-main{
+    padding-left: 50px;
+    font-size: 50px;
+    color: var(--primaria-a);
+}
+.shadow-img:hover{
+    box-shadow: 0 0 10px #f7dd6a;
+}
+.card-bg{
+    background-color: var(--terciaria-b);
+}
+.text-card{
+    text-align: justify;
+}
+.button-c{
+    color: #fff;
+}
+.button-c:hover{
+    background-color:#db5011;
+    color:black;
+    transition: 0.5s;
+}
+.text-footer{
+    font-size: 19px;
+    color: white;
+}
+.colortest{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+#img1{background-image: url(../img/MK001.jpg);}
+#img2{background-image: url(../img/MK002.jpg);}
+#img3{background-image: url(../img/MK003.jpg);}
+#img4{background-image: url(../img/MK004.jpg);}
+#img5{background-image: url(../img/MK005.jpg);}
+#img6{background-image: url(../img/MK006.jpg);}
+#img7{background-image: url(../img/MK007.jpg);}
+#img8{background-image: url(../img/MK008.jpg);}
+#img9{background-image: url(../img/MK009.jpg);}
+#img10{background-image: url(../img/MK0010.jpg);}
+#img11{background-image: url(../img/MK0011.jpg);}
+
+@media (max-width: 575.98px) {
+    header{
+        height: 75vh;
+        background-image: url(../img/001.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .position-text{
+        padding-left: 17%;
+    }
+    .text-main{
+        padding-left: 5px;
+        font-size: 50px;
+        color: var(--primaria-a);
+    }
+     .icon-footer{
+        font-size: 16px;
+     }
+     .text-footer{
+        font-size: 13px;
+        color: white;
+    }
+    .gap-footer{
+        padding-inline-end: 0px!important;
+        gap: 15px!important;
+    }
+}
+@media (min-width: 576px) and (max-width: 620px) {
+    .mg-nav{
+        margin-inline-start: auto!important;
+    }
+    header{
+        height: 75vh;
+        background-image: url(../img/003.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .position-text{
+        padding-left: 17%;
+    }
+    .text-main{
+        padding-left: 5px;
+        font-size: 50px;
+        color: var(--primaria-a);
+    }
+     .icon-footer{
+        font-size: 16px;
+        transition: 1.5s;
+     }
+     .text-footer{
+        transition: 1.5s;
+        font-size: 14px;
+        color: white;
+    }
+    .gap-footer{
+        padding-inline-end: 0px!important;
+        gap: 15px!important;
+    }
+}
+@media (min-width: 620px) and (max-width: 767.98px){
+    .mg-nav{
+        margin-inline-start: auto!important;
+    }
+    header{
+        height: 75vh;
+        background-image: url(../img/003.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .position-text{
+        padding-left: 20%;
+    }
+    .text-main{
+        padding-left: 5px;
+        font-size: 50px;
+        color: var(--primaria-a);
+    }
+     .icon-footer{
+        transition: 1.5s;
+        font-size: 17px;
+     }
+     .text-footer{
+        transition: 1.5s;
+        font-size: 16px;
+        color: white;
+    }
+    .gap-footer{
+        padding-inline-end: 0px!important;
+        gap: 15px!important;
+    }
+}
